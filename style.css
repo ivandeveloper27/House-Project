@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background-color: #e1ede6;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+nav a {
+    color: #2c2d35;
+    text-decoration: none;  
+    margin-right: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.replicas {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin: 0 , auto , 0 , auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+span {
+    color: #598d66;
+}
+
+.replicas_info p {
+    opacity: 0.5;
+    margin-bottom: 80px;
+}
+
+.replicas_info a {
+    text-decoration: none;
+    color: #598d66;
+    padding: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 50px; 
+    border: 2px solid #598d66;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+
+article {
+    background-color: #e1ede6;
+    margin: 20px;
+    padding: 20px
+}
+
+.price {
+   color: #598d66;
+   font-size: 21px
+}
+
+.cart {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #598d66;
+    padding: 15px 80px 15px 80px;
+    color: #598d66;
+}
+
+.author {
+   opacity: 0.5;
+   font-size: 17px;
+}
+
+.collection {
+    background-image: url("https://static-algoritmika-org.ngcdn.ru/uploads/student/70474876/69fa028a78491.jpg");
+    height: 700px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.collection-text {
+    position: absolute;
+    top: 50;
+    left: 50;
+    color: white;
+    width: 700px;
+    padding: 10px; 
+    background-color: #598d66;
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #e1ede6;
+}
+
+footer a {
+    text-decoration: none;
+    color: #598d66;
+}
